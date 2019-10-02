@@ -26,7 +26,7 @@ pipeline {
       }
     }
 
-    stage("upload to nexus") {
+    stage("upload to nexus - NOT DEVELOPED") {
       steps {
         sh "echo deploy to  nexus -- to be developed"
       }
